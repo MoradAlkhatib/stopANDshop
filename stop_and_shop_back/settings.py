@@ -38,8 +38,7 @@ SECRET_KEY = env.str('SECRET_KEY')
 DEBUG = True
 
 # ALLOWED_HOSTS = ['0.0.0.0','localhost','127.0.0.1',]
-ALLOWED_HOSTS = tuple(env.list('ALLOWED_HOSTS'))
-
+ALLOWED_HOSTS = ['localhost','127.0.0.1', '.vercel.app']
 
 # Application definition
 
