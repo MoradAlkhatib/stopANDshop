@@ -14,3 +14,4 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'stop_and_shop_back.settings')
 
 application = get_wsgi_application()
+app = application
