@@ -16,7 +16,7 @@ import environ
 
 env = environ.Env(
     # DEBUG is Flase by default
-    DEBUG = (bool, False)
+    DEBUG = (bool, True)
 )
 
 # Read .env file
@@ -170,6 +170,6 @@ STATICFILES_DIRS = [
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
-    'https://stop-an-dshop-lo5fdf2zu-moradalkhatib.vercel.app/',
-    'https://snacksui.vercel.app/',
+    #'https://stop-an-dshop-lo5fdf2zu-moradalkhatib.vercel.app/',
+    # 'https://snacksui.vercel.app/',
 ]
