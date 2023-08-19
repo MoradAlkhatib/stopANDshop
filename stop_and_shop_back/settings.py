@@ -35,7 +35,7 @@ SECRET_KEY = env.str('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
-DEBUG = True
+DEBUG = env.bool('DEBUG', default=False)
 
 # ALLOWED_HOSTS = ['0.0.0.0','localhost','127.0.0.1',]
 ALLOWED_HOSTS = ['localhost','127.0.0.1', '.vercel.app']
