@@ -1,8 +1,14 @@
 {
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "project/wsgi.py"
-    }
-  ]
-}
+    "builds": [
+      {
+        "src": "stop_and_shop_back/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "stop_and_shop_back/wsgi.py"
+      }
+    ]
+  }
