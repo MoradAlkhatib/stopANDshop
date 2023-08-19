@@ -170,5 +170,6 @@ STATICFILES_DIRS = [
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
+    'https://stop-an-dshop-lo5fdf2zu-moradalkhatib.vercel.app/',
     # 'https://snacksui.vercel.app/',
 ]
